@@ -16,8 +16,11 @@ while ( i<list.length){
     console.log(liElement);
 
     //Stampo elemeenti in pagina
-    
-    liElement = `<li>${liElement}</li>`
+
+    liElement = `<li><input type="checkbox" name="" id="check">
+    ${liElement}</li>`
     listEl.innerHTML += liElement
     i++
 }
+
+
